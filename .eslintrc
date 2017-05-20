@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "handle-callback-err": ["error", "^(err|error)$"],
+    "no-console": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "radix": ["error", "as-needed"],
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }]
+  }
+}
