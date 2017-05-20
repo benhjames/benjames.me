@@ -28,12 +28,12 @@ const HtmlHead = () => (
     <style jsx global>{`
       @font-face {
         font-family: 'chunkfive';
-        src: url('static/fonts/chunkfive-webfont.eot');
-        src: url('static/fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-            url('static/fonts/chunkfive-webfont.woff2') format('woff2'),
-            url('static/fonts/chunkfive-webfont.woff') format('woff'),
-            url('static/fonts/chunkfive-webfont.ttf') format('truetype'),
-            url('static/fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+        src: url('/static/fonts/chunkfive-webfont.eot');
+        src: url('/static/fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+            url('/static/fonts/chunkfive-webfont.woff2') format('woff2'),
+            url('/static/fonts/chunkfive-webfont.woff') format('woff'),
+            url('/static/fonts/chunkfive-webfont.ttf') format('truetype'),
+            url('/static/fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
         font-weight: normal;
         font-style: normal;
       }
