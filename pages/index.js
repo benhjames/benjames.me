@@ -72,14 +72,14 @@ const Home = () => (
             </div>
           </div>
           <div className="project">
-            <img className="img-fluid" src="/static/images/planetBuilder.png" /><br /><br />
+            <img className="img-fluid" src="/static/images/planetbuilder.png" /><br /><br />
             <h3>Procedural Planet Generator</h3>
             <p>For my second-year project, I teamed up to create a procedural planet generator, speeding up the content creation process for artists on space games. I worked on the rendering aspects, creating the application in Java with an OpenGL library.</p>
 
             <Button outline color="primary" href="http://www.github.com/benhjames/PlanetBuilder">Source Code</Button>
           </div>
           <div className="project">
-            <img className="img-fluid" src="/static/images/fluidSim.png" /><br /><br />
+            <img className="img-fluid" src="/static/images/fluidsim.png" /><br /><br />
             <h3>Unreal Engine Fluid Simulation</h3>
             <p>For my dissertation, I am currently implementing a real-time fluid simulation within Unreal Engine, making use of compute shaders and ray-marching techniques to simulate and render a fluid.</p>
 
