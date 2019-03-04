@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'next/link';
-import { Container, Row } from 'reactstrap';
+import React from "react";
+import Link from "next/link";
+import { Container, Row } from "reactstrap";
 
-import HTMLHead from './HTMLHead';
+import HTMLHead from "./HTMLHead";
 
 const Layout = ComposedComponent => () => (
   <Container fluid>
@@ -23,7 +23,13 @@ const Layout = ComposedComponent => () => (
     <ComposedComponent />
     <footer>
       <Row className="footer">
-        <p>Made with ❤️ using the brilliant <a className="link-secondary" href="https://github.com/zeit/next.js">next.js</a>.</p>
+        <p>
+          Made with ❤️ using the brilliant{" "}
+          <a className="link-secondary" href="https://github.com/zeit/next.js">
+            next.js
+          </a>
+          .
+        </p>
       </Row>
     </footer>
     <style jsx global>{`
@@ -36,7 +42,7 @@ const Layout = ComposedComponent => () => (
 
       .header-name {
         font-size: 2.875rem;
-        font-family: 'chunkfive';
+        font-family: "chunkfive";
         color: #fefefe;
         padding: 2.5rem 0 3.5rem;
       }
@@ -59,12 +65,12 @@ const Layout = ComposedComponent => () => (
       .link:hover {
         background: rgba(250, 250, 250, 0.7);
         color: #333;
-        transition: all .25s ease-in-out;
+        transition: all 0.25s ease-in-out;
       }
 
       .footer {
         background-color: #173e43;
-        color: #FFF;
+        color: #fff;
         text-align: center;
         padding-top: 20px;
         justify-content: center;
