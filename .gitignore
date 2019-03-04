@@ -5,6 +5,7 @@ yarn-error.log
 
 # App-related
 .next/*
+out/*
 
 # IDE
 .vscode/*
