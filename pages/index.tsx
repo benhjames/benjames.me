@@ -11,9 +11,9 @@ const Home = () => (
           <Row className="vertical-center">
             <Col md="6">
               <h2>
-                Hello. My name's Ben.
+                Hello. My name&apos;s Ben.
                 <br />
-                I'm a developer.
+                I&apos;m a developer.
               </h2>
               <hr />
               <h4>QUICK FACTS</h4>
@@ -46,7 +46,7 @@ const Home = () => (
               <h4>What are you up to, Ben?</h4>
               <hr />
               <p>
-                I'm currently working on some really cool chatbot tech at{" "}
+                I&apos;m currently working on some really cool chatbot tech at{" "}
                 <a className="link-secondary" href="http://toplayfor.co.uk">
                   To Play For
                 </a>
@@ -64,6 +64,7 @@ const Home = () => (
               <img
                 className="img-fluid img-programmer"
                 src="/static/images/programmer.png"
+                alt="A cartoon version of Ben!"
               />
             </Col>
           </Row>
@@ -83,14 +84,15 @@ const Home = () => (
             <br />
             <h3>Knights</h3>
             <p>
-              Knights is the first C++ game I've developed. It's an RPG where
-              you play a knight in shining armour, attempting to fend off the
-              waves of creepy crawlies lurking in the different dimensions.
+              Knights is the first C++ game I&apos;ve developed. It&apos;s an
+              RPG where you play a knight in shining armour, attempting to fend
+              off the waves of creepy crawlies lurking in the different
+              dimensions.
             </p>
 
             <p>
               Travel through the lands via portals, picking up food and a sword,
-              until you've got rid of them all.
+              until you&apos;ve got rid of them all.
             </p>
 
             <p>Sound easy? Download it below and see for yourself!</p>
@@ -163,10 +165,10 @@ const Home = () => (
             <br />
             <h3>Girton Ball Website</h3>
             <p>
-              As part of Girton's biennual Spring Ball Committee, I designed and
-              implemented the landing page to our Mayan-themed 2016 Ball, as
-              well as being responsible for a PHP-based and MySQL-backed
-              ticketing system for upwards of 2000 guests.
+              As part of Girton&apos;s biennual Spring Ball Committee, I
+              designed and implemented the landing page to our Mayan-themed 2016
+              Ball, as well as being responsible for a PHP-based and
+              MySQL-backed ticketing system for upwards of 2000 guests.
             </p>
 
             <Button outline color="primary" href="http://www.girtonball.co.uk/">
